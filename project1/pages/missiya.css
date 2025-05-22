@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #F0F4F7;
+}
+
+.container {
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #0A69C1;
+    background-image: url(../images/vintage-dust\ 1.png);
+}
+
+.navbar {
+    position: absolute;
+    width: 100%; 
+    max-width: 1376px;   
+    top: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 36px;
+}
+
+.menu {
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    color: #0A69C1;
+}
+
+.menu  p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.language {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #0A69C1;
+}
+
+.language option {
+    color: #0A69C1;
+}
+
+.nav-btn {
+    width: 72px;
+    height: 60px;
+    background-color:  #0A69C1;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.texts {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 104px;
+    margin-left: 32px;
+}
+
+.text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: gray;
+}
+
+.circle {
+    width: 4px;
+    height: 4px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.missiya-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.99999999999999%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-left: 32px;
+    margin-top: 42px;
+}
+
+.missiya-img {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.missiya-desc {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 114.99999999999999%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 24px;
+    color: gray;
+}
+
+.missiya-desc2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgb(46, 46, 46);
+    margin-top: 20px;
+}
+
+.year {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #0A69C1;
+}
+
+.missiya-card {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.missiya-card2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.line1 {
+    margin-left: 125px;
+}
+
+
+.footer {
+    margin-top: 90px;
+    background-color: #0A69C1;
+}
+
+.footer-contents {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+
+.socials {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.contacts {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.tel {
+    margin-top: 20px;
+}
+
+.email {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.gmail {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.location {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.address {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.map {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.copyright p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        max-width: 100%;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .texts {
+        margin-top: 60px;
+        margin-left: 16px;
+        gap: 8px;
+    }
+
+    .missiya-title,
+    .missiya-desc,
+    .missiya-desc2 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .missiya-img {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .missiya-card,
+    .missiya-card2 {
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .footer-contents {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-contents > div {
+        flex: 1 1 40%;
+        min-width: 250px;
+    }
+
+    .copyright {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 12px;
+    }
+
+    .nav-btn {
+        width: 100%;
+        height: 48px;
+    }
+
+    .menu p,
+    .language,
+    .nav-btn {
+        font-size: 13px;
+    }
+
+    .missiya-title {
+        font-size: 24px;
+    }
+
+    .missiya-desc {
+        font-size: 20px;
+    }
+
+    .missiya-desc2 {
+        font-size: 16px;
+    }
+
+    .year {
+        font-size: 28px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .footer-contents {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .footer-contents > div {
+        width: 100%;
+    }
+
+    .socials {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .copyright {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .copyright p br {
+        display: none; 
+    }
+
+    .texts {
+        display: flex;
+    }
+}
